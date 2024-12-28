@@ -1,1 +1,2 @@
-# Portfolio website made with HTML and CSS
+<h2 align="center"> Portfolio website made with HTML and CSS </h2>
+<div align="center"><img src="imagenes/screen-port.jpg" width="49%" align="center"> </div>
