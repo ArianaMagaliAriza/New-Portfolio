@@ -50,12 +50,14 @@ html {
     width: 55%;
     height: auto;
     box-shadow: 9px 9px 10px rgba(84, 2, 160, 0.767);
+    margin-bottom: 6%;
 }
 
 .text {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 4%;
     text-align: center;
     align-items: center;
     
@@ -115,13 +117,14 @@ html {
     width: 30%;
     gap: 6%;
     display:flex;
+    background-color: rgb(5, 9, 47);
     align-items:center;
     justify-content: center;
     text-align: center;
     flex-direction: column;
     margin: 5%;
-    padding: 3%;
-    height: auto;
+    padding: 7%;
+    height: 230px;
     border: 2px solid blueviolet;
     border-radius: 4%;
 }
@@ -134,32 +137,42 @@ html {
     gap:2%;
 }
 
+.text-calc,
+.text-port,
+.text-crypto {
+    gap: 2%;
+}
+
 @media (min-width: 768px) {
     .container {
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
-        gap: 8%;
+        gap: 6%;
     }
 
     .photo {
         width: 25%;
+        margin-bottom: auto;
     }
 
     .text {
         max-width: 60%;
         text-align: center;
         align-items: center;
+        
 
     }
 
     .text-1 {
         font-size: 2rem;
+        
     }
 
     .text-2 {
         font-size: 1.5rem;
+        
     }
 
     .text-3 {
@@ -175,4 +188,14 @@ html {
         flex-direction: row;
         flex-wrap: nowrap;
     }
+
+    .card-calc,
+    .card-port,
+    .card-crypto{
+        margin: 5%;
+        padding: 3%;
+        height: 220px;
+    }
+
+
 }
