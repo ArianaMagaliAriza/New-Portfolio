@@ -46,8 +46,8 @@ html {
 
 .photo {
     border-radius: 50%;
-    border: 14px solid rgb(113, 26, 235);
-    width: 55%;
+    border: 18px solid rgb(113, 26, 235);
+    width: 47%;
     height: auto;
     box-shadow: 9px 9px 10px rgba(84, 2, 160, 0.767);
     margin-bottom: 6%;
@@ -110,6 +110,7 @@ html {
     flex-direction: column;
     flex-wrap: nowrap;
 }
+
 
 .card-calc,
 .card-port,
